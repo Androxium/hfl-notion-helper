@@ -1,0 +1,5 @@
+#!/bin/bash
+
+content="'$*'"
+
+python3 ~/projects/hfl-notion-helper/helper.py $content
