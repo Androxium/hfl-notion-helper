@@ -6,7 +6,11 @@ These scripts allows you to add your daily entry to a Notion workspace.
 ## Setup
 - Follow the offical Notion developer docs [here](https://developers.notion.com/docs/getting-started) to get the integration set up.
 - Clone this repo
-- Create a `.env` file within the project directory with your Notion workspace. 
+- Create a `.env` file within this project directory with the following strucutre
+```
+DB_ID=<YOUR NOTION DB ID>
+TOKEN=<YOUR NOTION INTEGRATION AUTH TOKEN>
+```
 - Make the `hfl` bash script executable by running `chmod +x hfl`
 - To allow for the `hfl` script to be executed anywhere, follow [this guide](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) on 
 setting up your path environment
